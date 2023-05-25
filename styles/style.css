@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: #DC384E;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: 1px solid white;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: white;
+    color: #333339;
+
+}
+
+.container {
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #DC384E;
+}
+
+.header {
+    min-height: 150px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-list li {
+    padding: 0 5px;
+    margin-right: 40px;
+}
+
+.header-list li:last-child {
+    margin-right: 0;
+}
+
+.trolley-link-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trolley-img {
+    width: 25px;
+    fill: white;
+    background-color: white;
+}
+
+.one {
+    display: flex;
+}
+
+.left-side-sectionOne {
+    padding-right: 50px;
+}
+
+.left-side-sectionOne h2 {
+    font-size: 68px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.left-side-sectionOne p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.right-side-sectionOne {
+}
+
+.right-side-sectionOne img {
+    width: 570px;
+}
+
+.second {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.second h3 {
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.wrapper-benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    max-width: 320px;
+}
+
+.round {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.round img {
+    width: 25px;
+    background-color: white;
+}
+
+.card-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+}
+
+.three img {
+    width: 550px;
+}
+
+.right-side-sectionThree {
+    padding-left: 40px;
+}
+
+.right-side-sectionThree h3 {
+    font-size: 68px;
+    margin-bottom: 50px;
+}
+
+.four {
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+
+.wrapper-card-four {
+    margin: 0 auto;
+    max-width: 835px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 0;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.title-opportunity-card {
+    font-size: 26px;
+    max-width: 360px;
+}
+
+.title-opportunity-number {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.title-opportunity-number .number {
+    font-size: 72px;
+}
+
+.title-opportunity-number .description-number {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.five {
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-five-title {
+    font-size: 68px;
+    margin-bottom: 50px;
+}
+
+.wrapper-button-five-section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.wrapper-button-five-section .default {
+    margin-right: 0;
+}
+
+.wrapper-card-product {
+    max-width: 390px;
+}
+
+.round-card-circle {
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    background-color: #F25570;
+    margin-bottom: 50px;
+}
+
+/*.round-card-circle img {*/
+/*    width: 500px;*/
+/*    z-index: -1;*/
+/*}*/
+
+.title-card-portion {
+    color: #FFE180;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.title-card-name {
+    font-size: 26px;
+}
+
+.box-card-soup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+/*.wrapper-card-product:nth-child(2n) {*/
+/*    margin-top: 90px;*/
+/*}*/
+
+
+.wrapper-card-product p {
+    font-size: 16px;
+}
+
+.wrapper-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-card {
+    font-size: 30px;
+}
+
+.to-basket {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #F25570;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
