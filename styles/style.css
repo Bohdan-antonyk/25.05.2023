@@ -65,6 +65,11 @@ button {
     margin-right: 0;
 }
 
+.header-list li a:hover {
+    color: #E9C443;
+    transition: 0.3s ease;
+}
+
 .right-side-header-burger-menu {
     display: flex;
     align-items: center;
@@ -84,10 +89,15 @@ button {
     justify-content: center;
 }
 
+.trolley-link-img:hover {
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.5);
+}
+
 .trolley-img {
     width: 25px;
     fill: white;
     background-color: white;
+    transition: 0.5s ease;
 }
 
 .burger-menu {
@@ -249,8 +259,19 @@ button {
     margin-right: 0;
 }
 
+.default:hover {
+    background-color: #F25570;
+    border-color: #F25570;
+    transition: 0.3s ease;
+    color: white;
+}
+
 .wrapper-card-product {
     max-width: 390px;
+}
+
+.wrapper-card-product:hover {
+    cursor: pointer;
 }
 
 .round-card-circle {
@@ -370,6 +391,10 @@ button {
     cursor: pointer;
 }
 
+.arrow-left:hover, .arrow-right:hover {
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.5);
+}
+
 .wrapper-arrow button img {
     background-color: #F5F7F8;
 }
@@ -398,6 +423,11 @@ button {
 .card-media img {
     max-width: 100%;
     margin-bottom: 35px;
+}
+
+.card-media img:hover {
+    transform: scale(1.15);
+    transition: 1s ease;
 }
 
 .card-media h4 {
@@ -553,9 +583,28 @@ button {
     font-size: 22px;
 }
 
+.footer a:hover {
+    color: #E9C443;
+    transition: 0.3s ease;
+}
+
+.footer .language {
+    cursor: pointer;
+}
+
+.footer .language:hover {
+    color: #E9C443;
+    transition: 0.3s ease;
+}
+
 .footer-part-four .wrapper-social-media svg {
     width: 25px;
     fill: #ffffff;
+    cursor: pointer;
+}
+
+.footer svg:hover {
+    fill: #E9C443;
 }
 
 .footer .some-text {
